@@ -22,9 +22,9 @@
 
     </div>
 
-    <div class="w-full xl:w-3/5 p-12 overflow-hidden">
+    <div class="w-full xl:w-3/5 p-1 sm:p-12 overflow-hidden">
       <div class="bg-gray-900 opacity-75 shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4 mx-auto w-full md:w-4/5 transform -rotate-1 transition hover:scale-105 duration-300 ease-in-out hover:rotate-1">
-        <form (ngSubmit)="generateMeme()" [formGroup]="generatorForm" class="flex flex-col gap-4">
+        <form (ngSubmit)="generateMeme()" [formGroup]="generatorForm" class="flex flex-col  gap-2 sm:gap-4">
           <div class="relative">
             <label class="block text-blue-300 py-2 font-bold mb-2" for="topText"> Top Text </label>
             <input formControlName="topText" placeholder="Write top text here" class="w-full p-3 mt-1 text-sm border-2 text-gray-700  border-gray-200 rounded" id="topText" type="text" />
